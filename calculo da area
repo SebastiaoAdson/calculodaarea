@@ -1,0 +1,23 @@
+package com.mycompany.mavenproject1;
+import java.util.Scanner;
+public class imc3 {
+    
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        double base=0;
+        double altura=0; 
+        double triangulo=0;
+        
+     System.out.println("Digite numero da base");
+     base=scanner.nextDouble();
+     System.out.println("Digite numero da altura");
+     altura=scanner.nextDouble();
+     triangulo=(base*altura)/2;
+     
+     System.out.println("Resultado do triangulo"+triangulo);
+     
+    }
+    
+}
